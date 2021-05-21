@@ -1,0 +1,38 @@
+body {
+  color: hsl(34, 93%, 49%);
+  margin: 10px;
+  padding: 5px;
+  font-family: "Kiwi Maru", serif;
+  background: radial-gradient(
+    circle at 7.5% 24%,
+    rgb(237, 161, 193) 0%,
+    rgb(250, 178, 172) 25.5%,
+    rgb(190, 228, 210) 62.3%,
+    rgb(215, 248, 247) 93.8%
+  );
+}
+
+h1 {
+  text-shadow: 0px 11px 11px rgba(159, 158, 236, 1);
+  color: #9f9eec;
+  display: block;
+  text-align: center;
+}
+
+.search {
+  margin: auto;
+  display: block;
+  text-align: right;
+  font-size: 20px;
+}
+
+.currentTemp {
+  display: inline;
+  font-display: 10px;
+}
+
+.col-card--asymmetric {
+  padding: 2rem;
+  border-radius: 0 7rem;
+  box-shadow: 0 -4px #fc87da, 0 4px 4px #41e0e7;
+}
