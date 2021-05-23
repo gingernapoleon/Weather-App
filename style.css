@@ -1,8 +1,5 @@
 body {
-  color: hsl(34, 93%, 49%);
-  margin: 10px;
-  padding: 5px;
-  font-family: "Kiwi Maru", serif;
+  border: 1px solid hsl(34, 93%, 49%);
   background: radial-gradient(
     circle at 7.5% 24%,
     rgb(237, 161, 193) 0%,
@@ -17,6 +14,13 @@ h1 {
   color: #9f9eec;
   display: block;
   text-align: center;
+}
+
+.container {
+  color: hsl(34, 93%, 49%);
+  margin: 10px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
 .search {
